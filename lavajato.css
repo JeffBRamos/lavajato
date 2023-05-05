@@ -3,8 +3,6 @@
     padding: 0rem;
 }
 .main{
-    width: 100vw;
-    height: 100vh;
     background: #1a0527;
     display: flex;
     justify-content: center;
@@ -19,7 +17,7 @@
     align-items: center;
 }
 .card-rigister{
-    width: 60%;
+    width: 40%;
     display: flex;
     background: #3D0063;
     box-shadow: 0px 10px 40px #00000056;
@@ -29,11 +27,15 @@
     align-items: center;
 }
 .input-wrapper + .input-wrapper{
-    padding-top: 18px;
+    padding-top: 15px;
 }
 label{ 
     font-size: 18px;
     color: #37d1b5;
+}
+.input-wrapper > label{
+    display: flex;
+    margin-bottom: 8px;
 }
 .input-wrapper > input{
     width: 100%;
@@ -62,6 +64,7 @@ h1{
 }
 img{
     width: 150px;
+    margin-left: 20px;
 }
 .input-wrapper + .btn{
     margin-top: 30px;
